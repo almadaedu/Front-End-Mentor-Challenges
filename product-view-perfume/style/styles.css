@@ -1,6 +1,8 @@
 :root {
   --color-primary-dark-cyan: hsl(158, 36%, 37%);
+  --color-primary-dark-cyan-darker: hsl(158, 36%, 17%);
   --color-secondary-cream: hsl(30, 38%, 92%);
+
   --color-neutral-dark-blue: hsl(212, 21%, 14%);
   --color-neutral-grayish-blue: hsl(228, 12%, 48%);
   --color-neutral-white: hsl(0, 0%, 100%);
@@ -106,12 +108,29 @@ img {
 }
 
 .button {
-  background: url("../images/icon-cart.svg") no-repeat top left;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   background-color: var(--color-primary-dark-cyan);
-  border: none;
+  border: 0;
   border-radius: 0.5rem;
   padding: 0.6rem;
   color: var(--color-neutral-white);
+  font-size: 0.925rem;
+}
+
+.button:where(:focus, :hover) {
+  background-color: var(--color-primary-dark-cyan-darker);
+}
+
+.button[data-icon="shopping-cart"]::before {
+  content: "";
+  background-image: url("../images/icon-cart.svg");
+  width: 15px;
+  height: 16px;
 }
 
 .attribution {
