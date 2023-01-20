@@ -156,4 +156,9 @@ img {
   .button {
     padding: 0.8rem;
   }
+
+  img {
+    border-radius: 10px 0 0 10px;
+
+  }
 }
