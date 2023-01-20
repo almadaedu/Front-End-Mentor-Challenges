@@ -10,7 +10,7 @@
   --font-weight-regular: 500;
   --font-weight-bold: 700;
 
-  --font-family-bitter: 'Bitter', serif;
+  --font-family-fraunces: 'Fraunces', serif;
   --font-family-montserrat: "Montserrat", sans-serif;
 }
 
@@ -90,7 +90,7 @@ img {
 }
 
 .product_title {
-  font-family: var(--font-family-bitter);
+  font-family: var(--font-family-fraunces);
   color: var(--color-neutral-dark-blue);
   font-size: 2rem;
   line-height: 1;
@@ -104,7 +104,7 @@ img {
 .product_discount-price {
   color: var(--color-primary-dark-cyan);
   font-weight: var(--font-weight-bold);
-  font-family: var(--font-family-bitter);
+  font-family: var(--font-family-fraunces);
   font-size: 2rem;
 }
 
