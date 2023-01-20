@@ -20,7 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- [Desktop version](https://prnt.sc/NpIbbLRP-FC1)
+- [Mobile version](https://prnt.sc/eBwfVRMRbbal)
 
 ### Built with
 
