@@ -40,6 +40,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/almadaedu)
+- Frontend Mentor - [@almadaedu](https://www.frontendmentor.io/profile/almadaedu)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
