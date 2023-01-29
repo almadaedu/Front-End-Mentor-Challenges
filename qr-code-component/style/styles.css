@@ -1,0 +1,94 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+
+    --font-family-outfit: 'Outfit', sans-serif;
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+
+}
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: var(--color-light-gray);
+  display: grid;
+  place-content: center;
+  font-family: var(--font-family-outfit);
+}
+
+main{
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 330px;
+  padding: 1rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  gap: 1rem;  
+  font-size: 15px;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-grayish-blue);
+}
+
+h1 {
+  font-size: 23px;
+  color: var(--color-dark-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
